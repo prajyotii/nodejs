@@ -15,7 +15,11 @@ sudo zip tar.zip .
 ls
 sudo zip -r tar.zip .
 ls
-cp tar.zip ~/
+cp tar.zip ~/test
+sudo unzip tar.zip
+npm install
+npm start
+
 ls
 set +x
 
