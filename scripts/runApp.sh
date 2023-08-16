@@ -8,6 +8,15 @@ set -x
 npm start &
 sleep 1
 echo $! > .pidfile
+ls
+node -v
+ls
+sudo zip tar.zip .
+ls
+sudo zip -r tar.zip .
+ls
+cp tar.zip ~/
+ls
 set +x
 
 echo 'Now you can'
