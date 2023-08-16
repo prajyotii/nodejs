@@ -20,4 +20,4 @@ ls
 set +x
 
 echo 'Now you can'
-echo 'Visit http://localhost:9981 to see your Node.js application'
+echo 'Visit http://3.109.1.201:9981 to see your Node.js application'
